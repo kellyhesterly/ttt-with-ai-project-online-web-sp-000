@@ -3,7 +3,7 @@ module Players
 
     def move(board)
       valid_move = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
-      !board.taken(valid_move)
+      !board.taken?(valid_move)
      binding.pry
     end
 
